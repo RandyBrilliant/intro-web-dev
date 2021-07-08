@@ -6,7 +6,7 @@ Selamat datang pada dokumentasi untuk workshop bertajuk Intro to Web Development
 
 Kamu bisa melakukan menjalankan dokumentasi ini pada komputer kamu sendiri dengan
 
-### `git clone https://github.com/RandyBrilliant/intro-web-dev-doc.git`
+### `git clone https://github.com/RandyBrilliant/intro-web-dev.git`
 
 Code ini akan menkloning project code diatas ke komputer kamu.
 Lalu change directory ke directory foldernya.
