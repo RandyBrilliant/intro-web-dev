@@ -29,7 +29,7 @@ const Intro = () => {
           Selalu ingatlah, bahwa belajar coding itu sangat susah dan membutuhkan kerja keras yang ekstra. Percayalah kepada kata-kataku, ketika pekerjaan lainnya diluar sana hanya membutuhkan skill yang biasa-biasa saja dengan gaji yang biasa-biasa saja, saya menjamin kamu akan segera mendapatkan pekerjaan impian dengan gaji yang berlimpah. <strong>Happy Coding!</strong>
         </p>
         <h2 className="fs-3 fw-bolder mt-5">Kenalan Yuk!</h2>
-        <img src={Me} class="rounded mx-auto d-block img-fluid py-3" width="500" alt="Randy Brilliant"></img>
+        <img src={Me} class="rounded mx-auto d-block img-fluid py-3" width="500" alt="Randy Brilliant" />
         <p>
           Howdy!! Nama saya adalah Randy Brilliant. Salam kenal. Saat ini, saya merupakan mahasiswa aktif tahun ketiga pada salah satu kampus di Medan bernama IB IT&B atau biasa kerap dikenal dengan <em>IT&B Campus</em>. Saya juga dipercayakan untuk menjadi Education Consultant dan Computer Lab Assistant dimana saya diberi tanggung jawab untuk memberi pencerahan kepada calon mahasiswa seperti kalian untuk mengetahui lebih jauh tentang IT&B Campus dan tujuan kalian kedepannya. Saya juga bertanggung jawab atas segala hal berbau IT disana. Pada malam hari, saya bekerja sebagai freelancer Graphic Designer dan Web Developer dengan telah bekerja untuk beberapa klien terkenal seperti Grab, Offle, Family Group, Print&Pack dan banyak lagi.
         </p>
