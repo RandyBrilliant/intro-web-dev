@@ -17,6 +17,14 @@ import ProjectHtml from './pages/HTML/ProjectHtml';
 import Css from './pages/CSS/Css';
 import CssIntegration from './pages/CSS/CssIntegration';
 import CssSelector from './pages/CSS/CssSelector';
+import CssLayout from './pages/CSS/CssLayout';
+import ProjectCss from './pages/CSS/ProjectCss';
+
+import IntroJs from './pages/JS/IntroJs';
+import FunctionScope from './pages/JS/FunctionScope';
+import ObjectsArrays from './pages/JS/ObjectsArrays';
+import JsDom from './pages/JS/JsDom';
+import ProjectJs from './pages/JS/ProjectJs';
 
 require('codemirror/lib/codemirror.css');
 require('codemirror/theme/material.css');
@@ -42,6 +50,13 @@ function App() {
         <Route path="/css" component={Css} />
         <Route path="/css-integration-with-html" component={CssIntegration} />
         <Route path="/css-selector-and-pseudo-selector" component={CssSelector} />
+        <Route path="/css-layout" component={CssLayout} />
+        <Route path="/assessment-project-css" component={ProjectCss} />
+        <Route path="/intro-to-js" component={IntroJs} />
+        <Route path="/function-scope" component={FunctionScope} />
+        <Route path="/objects-arrays" component={ObjectsArrays} />
+        <Route path="/js-dom" component={JsDom} />
+        <Route path="/assessment-project-javascript" component={ProjectJs} />
       </Switch>
 
       <Footer />
