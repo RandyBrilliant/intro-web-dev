@@ -8,7 +8,7 @@ const ProjectJs = () => {
         <p>
           Pada assessment project kali ini, kita akan melakukan project yang lebih advance karena kalau kita ikut kata pepatah, kita tidak akan berkembang jika hanya melakukan hal yang mudah.
         </p>
-        <h2 className="fs-3 fw-bolder mt-5">Assessment 03</h2>
+        <h2 className="fs-3 fw-bolder mt-5">Assessment 04</h2>
         <p>
           Tujuan dari tugas ini adalah untuk melatih pemahaman kalian terhadap basic programming principle. Kamu bisa membuatnya melalui repl ataupun code editor dengan JS environment sesukamu.
         </p>

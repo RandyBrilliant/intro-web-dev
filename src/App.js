@@ -8,6 +8,8 @@ import Home from './pages/Home';
 import Intro from './pages/Intro';
 import Overview from './pages/Overview';
 import Weapon from './pages/Weapon';
+import FinalAssessment from './pages/FinalAssessment';
+import Git from './pages/Git';
 
 import Html from './pages/HTML/Html';
 import HtmlNextSteps from './pages/HTML/HtmlNextSteps';
@@ -57,6 +59,8 @@ function App() {
         <Route path="/objects-arrays" component={ObjectsArrays} />
         <Route path="/js-dom" component={JsDom} />
         <Route path="/assessment-project-javascript" component={ProjectJs} />
+        <Route path="/final-assessment-project" component={FinalAssessment} />
+        <Route path="/git" component={Git} />
       </Switch>
 
       <Footer />
