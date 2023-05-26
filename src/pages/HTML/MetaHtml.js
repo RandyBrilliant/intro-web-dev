@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const MetaHtml = () => {
   const [value, setValue] = useState(
-    `<!DOCTYPE html>\n<html lang="en">\n\t<head>\n\t\t<title>My First Website</title>\n\t</head>\n\t<body>\n\t\t<p>It Worked</p>\n\t\t<!-- Your amazing HTML here -->\n\t</body>\n</html>`
+    `<!DOCTYPE html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="UTF-8" />\n\t\t<meta name="viewport" content="width=device-width, initial-scale=1.0" />\n\t\t<title>My First Website</title>\n\t</head>\n\t<body>\n\t\t<p>It Worked</p>\n\t\t<!-- Your amazing HTML here -->\n\t</body>\n</html>`
   );
 
   return (
@@ -56,6 +56,26 @@ const MetaHtml = () => {
               </p>
             </li>
             <li>
+              <b>&lt;meta&gt;</b>
+              <p>
+                Atau biasa yang sering disebut sebagai Meta Tags yang bertujuan memberikan informasi kepada browser agar browser dapat mengintepretasikan dokumen (dalam hal ini website kamu).
+                <ul>
+                  <li>
+                    <b>charset="UTF-8"</b>
+                    <p>
+                      Hal ini menandakan bahwa dokumen kamu ditulis dengan set karakter UTF-8. UTF-8 adalah set karakter yang paling umum digunakan untuk menulis dokumen HTML. Hal ini akan memastikan bahwa browser dapat menampilkan karakter yang kamu tulis dengan benar. Ini juga berarti kamu dapat menggunakan semua jenis abjad/huruf/angka/emoji/dan lainnya. Contoh lain dari set karakter lainnya yaitu <em>ASCII</em> yang menyediakan lebih sedikit karakter seperti tidak memiliki huruf dengan aksen, atau bahkan tidak memiliki huruf Jepang. Dengan kata lain, kamu dapat selalu menggunakan UTF-8 untuk menulis dokumen HTML kamu dan tidak perlu khawatir lagi dengan hal ini.
+                    </p>
+                  </li>
+                  <li>
+                    <b>name="viewport" content="width=device-width, initial-scale=1.0"</b>
+                    <p>
+                      Tujuan dari attribute ini adalah untuk memberitahukan browser untuk bisa mengatur tampilan website kamu dalam berbagai ukuran layar seperti layar hp, tablet hingga televisi. Ini akan sangat membantu dalam memastikan website kamu dapat ditampilkan dengan baik di berbagai ukuran layar. Jika kamu tidak menaruh ini, maka website secara dasar akan ditampilkan dengan ukuran layar desktop dan akan melakukan <em>zoomed out</em> ketika menampilkannya dalam layar HP demi memuat semua konten dan menyebabkan website tersebut menjadi susah dibaca. Selalu menaruh ini di setiap website kamu. 
+                    </p>
+                  </li>
+                </ul>
+              </p>
+            </li>
+            <li>
             <b>&lt;body&gt;&lt;/body&gt;</b>
             <p>
               Disinilah kita akan menaruh tag yang telah kita pelajari sebelumnya untuk menampilkan konten visual yang dapat ditampilkan di website kita.
@@ -64,16 +84,16 @@ const MetaHtml = () => {
           </ol>
         </p>
         <div className="d-flex justify-content-between">
-          <Link type="button" class="btn btn-primary btn-lg" to="/html-next-steps">
-            <svg className="mx-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-left" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          <Link type="button" className="btn btn-primary btn-lg" to="/html-next-steps">
+            <svg className="me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
             </svg>
             HTML Next Steps
           </Link>
-          <Link type="button" class="btn btn-primary btn-lg" to="/assessment-project-html">
+          <Link type="button" className="btn btn-primary btn-lg" to="/assessment-project-html">
             Assessment Project: HTML
-            <svg className="mx-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            <svg className="ms-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
             </svg>
           </Link>
         </div>
@@ -82,5 +102,5 @@ const MetaHtml = () => {
   )
 }
 
-export default MetaHtml
+export default MetaHtml;
 

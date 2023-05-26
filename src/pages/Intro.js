@@ -29,24 +29,24 @@ const Intro = () => {
           Selalu ingatlah, bahwa belajar coding itu sangat susah dan membutuhkan kerja keras yang ekstra. Percayalah kepada kata-kataku, ketika pekerjaan lainnya diluar sana hanya membutuhkan skill yang biasa-biasa saja dengan gaji yang biasa-biasa saja, saya menjamin kamu akan segera mendapatkan pekerjaan impian dengan gaji yang berlimpah. <strong>Happy Coding!</strong>
         </p>
         <h2 className="fs-3 fw-bolder mt-5">Kenalan Yuk!</h2>
-        <img src={Me} class="rounded mx-auto d-block img-fluid py-3" width="500" alt="Randy Brilliant" />
+        <img src={Me} className="rounded mx-auto d-block img-fluid py-3" width="500" alt="Randy Brilliant" />
         <p>
-          Howdy!! Nama saya adalah Randy Brilliant. Salam kenal. Saat ini, saya merupakan mahasiswa aktif tahun ketiga pada salah satu kampus di Medan bernama IB IT&B atau biasa kerap dikenal dengan <em>IT&B Campus</em>. Saya juga dipercayakan untuk menjadi Education Consultant dan Computer Lab Assistant dimana saya diberi tanggung jawab untuk memberi pencerahan kepada calon mahasiswa seperti kalian untuk mengetahui lebih jauh tentang IT&B Campus dan tujuan kalian kedepannya. Saya juga bertanggung jawab atas segala hal berbau IT disana. Pada malam hari, saya bekerja sebagai freelancer Graphic Designer dan Web Developer dengan telah bekerja untuk beberapa klien terkenal seperti Grab, Offle, Family Group, Print&Pack dan banyak lagi.
+          Nama saya adalah Randy Brilliant. Salam kenal. Saat ini, saya merupakan Programmer pada salah satu kampus di Medan bernama IB IT&B atau biasa kerap dikenal dengan <em>IT&B Campus</em>. Sebelumnya, saya dipercayakan untuk menjadi Education Consultant dan Computer Lab Assistant dimana saya diberi tanggung jawab untuk memberi pencerahan kepada calon mahasiswa seperti kalian untuk mengetahui lebih jauh tentang IT&B Campus dan tujuan kalian kedepannya. Saya juga bertanggung jawab atas segala hal berbau IT disana. Pada malam hari, saya bekerja sebagai freelancer Graphic Designer dan Web Developer dengan telah bekerja untuk beberapa klien terkenal seperti Grab, Offle, Family Group, Print&Pack dan banyak lagi.
         </p>
         <p>
           Saya merupakan seorang optimistis, dan sangat menyukai hal-hal berbau teknologi. Saya selalu berharap dapat membantu orang disekitar dengan skill yang saya miliki dan sangat senang jika dapat membantu orang-orang menyelesaikan masalah.
         </p>
         <div className="d-flex justify-content-between">
-          <Link type="button" class="btn btn-primary btn-lg" to="/">
-            <svg className="mx-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-left" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          <Link type="button" className="btn btn-primary btn-lg" to="/">
+            <svg className="me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
             </svg>
             Home
           </Link>
-          <Link type="button" class="btn btn-primary btn-lg" to="/overview">
+          <Link type="button" className="btn btn-primary btn-lg" to="/overview">
             Overview
-            <svg className="mx-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            <svg className="ms-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
             </svg>
           </Link>
         </div>
