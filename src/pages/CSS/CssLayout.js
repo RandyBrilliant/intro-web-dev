@@ -212,16 +212,16 @@ const CssLayout = () => {
           Masih ada lagi beberapa keunggulan flex yang dapat kamu gunakan. Kamu bisa membuat beberapa row dengan menggunakan <b>flex-wrap</b>. Terdapat juga beberapa property yang dapat menargetkan hanya beberapa konten elemen tertentu untuk diposisikan secara individual di tengah, kiri, ataupun kanan. Kamu dapat mempelajari lebih lanjut melalui artikel <a target="_blank" rel="noopener noreferrer" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks tentang Flexbox</a>
         </p>
         <div className="d-flex justify-content-between mt-5">
-          <Link type="button" class="btn btn-primary btn-lg" to="/css-selector-and-pseudo-selector">
-            <svg className="mx-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-left" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          <Link type="button" className="btn btn-primary btn-lg" to="/css-selector-and-pseudo-selector">
+            <svg className="me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
             </svg>
             CSS Selector and Pseudo Selector
           </Link>
-          <Link type="button" class="btn btn-primary btn-lg" to="/assessment-project-css">
+          <Link type="button" className="btn btn-primary btn-lg" to="/assessment-project-css">
             Assessment Project: CSS
-            <svg className="mx-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            <svg className="ms-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
             </svg>
           </Link>
         </div>

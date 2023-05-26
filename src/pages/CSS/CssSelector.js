@@ -169,16 +169,16 @@ const CssSelector = () => {
           <b>:hover</b> hanya akan menjalankan styling CSS jika kondisinya telah terpenuhi yaitu elemennya sedang di hover. Masih terdapat banyak <a href="https://css-tricks.com/pseudo-class-selectors/" target="_blank" rel="noopener noreferrer">CSS Pseudoclasses</a> yang tidak akan saya jelaskan satu-satu disini. Kamu dapat mencarinya dari link yang telah saya berikan untuk bereksplorasi.
         </p>
         <div className="d-flex justify-content-between mt-5">
-          <Link type="button" class="btn btn-primary btn-lg" to="/css-integration-with-html">
-            <svg className="mx-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-left" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          <Link type="button" className="btn btn-primary btn-lg" to="/css-integration-with-html">
+            <svg className="me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
             </svg>
-            CSS Integration with HTML
+            SS Integration with HTML
           </Link>
-          <Link type="button" class="btn btn-primary btn-lg" to="/css-layout">
+          <Link type="button" className="btn btn-primary btn-lg" to="/css-layout">
             CSS Layout
-            <svg className="mx-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            <svg className="ms-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
             </svg>
           </Link>
         </div>
